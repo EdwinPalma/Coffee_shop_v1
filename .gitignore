@@ -14,7 +14,7 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+../../Proyecto_Springboot_01/Coffee_Shop/.idea/.idea
 *.iws
 *.iml
 *.ipr
