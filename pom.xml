@@ -11,7 +11,7 @@
 	<groupId>com.bootcamp</groupId>
 	<artifactId>Coffee_shop</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>coffeeshop</name>
+	<name>Coffee_shop_v1</name>
 	<description>
 		API de clientas, productos y ordenes de un coffee shop - arquitectura hexagonal
 	</description>
