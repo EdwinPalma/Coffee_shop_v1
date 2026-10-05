@@ -40,14 +40,14 @@ public class CustomerService implements CreateCustomerUseCase, GetCustomerUseCas
         return this.repository.findAll();
     }
 
+
     @Override
-    public Customer delete(Integer id) {
+    public void delete(Integer id) {
 
         Optional<Customer> optionalCustomer = this.repository.findById(id);
         if(optionalCustomer.isEmpty())
                 throw new CustomerNotFoundException("Cliente no encontrado con id " + id);
-        repository.delete(id); //falta agregar validacion de exception
-        return optionalCustomer.get();
+        repository.deleteById(id); //falta agregar validacion de exception
     }
 
     @Override

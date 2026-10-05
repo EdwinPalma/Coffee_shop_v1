@@ -9,6 +9,6 @@ public interface CustomerRepositoryPort {
     Customer save(Customer customer);
     List<Customer> findAll();
     Optional<Customer> findById(Integer id);
-    void delete(Integer id);
+    void deleteById(Integer id);
 }
 

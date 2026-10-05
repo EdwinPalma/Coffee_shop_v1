@@ -1,6 +1,7 @@
 package com.bootcamp.coffeeshop.customer.domain.model;
 
 import java.sql.Timestamp;
+import java.time.LocalDateTime;
 
 public class Customer {
     private Integer id;
@@ -8,13 +9,14 @@ public class Customer {
     private String lastName;
     private String email;
     private String phone;
-    private Timestamp createdAt;
-    private Timestamp updatedAt;
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
 
     public Customer() {
     }
 
-    public Customer(Integer id, String firstName, String lastName, String email, String phone, Timestamp createdAt, Timestamp updatedAt) {
+    public Customer(Integer id, String firstName, String lastName, String email, String phone,
+                    LocalDateTime createdAt, LocalDateTime updatedAt) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -64,19 +66,19 @@ public class Customer {
         this.phone = phone;
     }
 
-    public Timestamp getCreatedAt() {
+    public LocalDateTime getCreatedAt() {
         return createdAt;
     }
 
-    public void setCreatedAt(Timestamp createdAt) {
+    public void setCreatedAt(LocalDateTime createdAt) {
         this.createdAt = createdAt;
     }
 
-    public Timestamp getUpdatedAt() {
+    public LocalDateTime getUpdatedAt() {
         return updatedAt;
     }
 
-    public void setUpdatedAt(Timestamp updatedAt) {
+    public void setUpdatedAt(LocalDateTime updatedAt) {
         this.updatedAt = updatedAt;
     }
 }

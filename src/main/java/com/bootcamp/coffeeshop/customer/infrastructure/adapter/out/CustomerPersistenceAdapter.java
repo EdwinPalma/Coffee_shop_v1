@@ -36,7 +36,8 @@ public class CustomerPersistenceAdapter implements CustomerRepositoryPort {
     }
 
     @Override
-    public void delete(Integer id) {
+    public void deleteById(Integer id)  {
         this.customerJpaRepository.deleteById(Long.valueOf(id));
     }
+
 }
