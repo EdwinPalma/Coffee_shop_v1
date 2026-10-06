@@ -1,4 +1,4 @@
-package com.bootcamp.coffeeshop.users.infrastructure.entities;
+package com.bootcamp.coffeeshop.users.infrastructure.security.entities;
 
 import com.bootcamp.coffeeshop.users.domain.model.Role;
 import jakarta.persistence.*;

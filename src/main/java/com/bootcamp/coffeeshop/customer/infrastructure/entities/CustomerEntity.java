@@ -2,7 +2,6 @@ package com.bootcamp.coffeeshop.customer.infrastructure.entities;
 
 import jakarta.persistence.*;
 
-import java.sql.Timestamp;
 import java.time.LocalDateTime;
 
 @Entity

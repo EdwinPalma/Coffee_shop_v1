@@ -2,7 +2,6 @@ package com.bootcamp.coffeeshop.customer.infrastructure.adapter.in;
 
 import com.bootcamp.coffeeshop.customer.application.port.in.CreateCustomerUseCase;
 import com.bootcamp.coffeeshop.customer.application.port.in.GetCustomerUseCase;
-import com.bootcamp.coffeeshop.customer.domain.model.Customer;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -10,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/users/customers")
+@RequestMapping("/api/customers")
 public class CustomerController {
 
     private final CreateCustomerUseCase createCustomerUseCase;

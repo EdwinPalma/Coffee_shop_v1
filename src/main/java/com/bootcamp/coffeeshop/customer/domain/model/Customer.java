@@ -1,6 +1,5 @@
 package com.bootcamp.coffeeshop.customer.domain.model;
 
-import java.sql.Timestamp;
 import java.time.LocalDateTime;
 
 public class Customer {

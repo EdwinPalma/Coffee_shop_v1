@@ -1,6 +1,5 @@
 package com.bootcamp.coffeeshop.customer.infrastructure.adapter.in;
 
-import jakarta.persistence.MapKeyEnumerated;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
